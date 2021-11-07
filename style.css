@@ -1,6 +1,57 @@
-                 .video-fluid {
-                     width: 100%;
-                     height: auto;
-                     /* object-fit: cover;
-                     object-position: 30% 10%; */
-                 }
+            html {
+                scroll-behavior: smooth;
+            }
+            
+            .video-fluid {
+                width: 100%;
+                height: auto;
+            }
+            
+            .socials {
+                color: #173144;
+                transition: color 0.1s;
+                text-decoration: none;
+                padding: 5px;
+            }
+            
+            .socials:hover {
+                color: #4f7997;
+            }
+            /* education part nav */
+            
+            #edu {
+                background-color: white;
+            }
+            
+            p {
+                font-family: 'Space Mono', monospace;
+            }
+            
+            .heading {
+                font-family: 'Space Mono', monospace;
+            }
+            
+            .subheading1 {
+                font-family: 'Space Mono', monospace;
+            }
+            
+            .subheading2 {
+                font-family: 'Space Mono', monospace;
+                font-weight: bold;
+            }
+            
+            #edu-img {
+                width: 400px;
+                height: 400px;
+                padding-left: 60px;
+            }
+            
+            #cs {
+                width: 190px;
+                height: 80px;
+            }
+            
+            #iub {
+                width: 100px;
+                height: 180px;
+            }
