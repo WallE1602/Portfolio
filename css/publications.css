@@ -1,0 +1,135 @@
+.publication-div {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-dark);
+}
+
+#pub-subtitle {
+    color: white;
+    width: 400px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.pub-subtitle {
+    color: var(--primary-sub);
+    padding-top: 2%;
+    padding-left: 3%;
+}
+
+.publication {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    justify-content: center;
+}
+
+.publication-card {
+    margin: 1em;
+    background-color: var(--bg);
+    height: 600px;
+    width: 520px;
+    border-radius: 8px;
+    box-shadow: 0px 13px 10px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+}
+
+.pub-type {
+    margin: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: var(--bg-dark);
+    position: absolute;
+    color: greenyellow;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.pub-image-bg {
+    max-height: 80%;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.pub-title {
+    color: white;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+
+.pub-labels {
+    padding-left: 3%;
+    display: flex;
+}
+
+.pub-label-icon {
+    background-color: transparent;
+    color: var(--primary-green);
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+.pub-label {
+    margin-right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: var(--bg-dark);
+    transition: 0.5s;
+}
+
+.pub-label:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0px 0px 10px var(--primary-green);
+}
+
+.pub-label:hover .p-label-icon {
+    color: var(--bg-dark);
+}
+
+.pub-label-text {
+    margin-left: 15%;
+    background-color: transparent;
+    color: var(--primary-green);
+    transition: .5s;
+}
+
+.pub-label:hover .p-label-text {
+    color: var(--bg-dark);
+}
+
+.publication-card:hover {
+    box-shadow: 0px 5px 10px var(--primary-green);
+}
+
+.see-more {
+    padding-top: 3%;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+}
+
+#see-more-btn {
+    color: var(--primary-green);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: 700;
+}

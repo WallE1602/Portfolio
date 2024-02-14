@@ -1,0 +1,28 @@
+:root {
+    --primary-green: #71CACF;
+    --primary-sub: #45a3d2;
+    --text-light: #7D7E83;
+    --bg: #2D2E32;
+    --bg-dark: #25262A;
+}
+
+* {
+    background-color: var(--bg);
+    font-family: 'Roboto', sans-serif;
+}
+
+.primary {
+    color: #71CACF;
+}
+
+.text-light {
+    color: #7D7E83;
+}
+
+.bg {
+    background-color: #2D2E32;
+}
+
+.bg-dark {
+    background-color: #25262A;
+}
