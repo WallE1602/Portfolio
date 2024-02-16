@@ -2,7 +2,7 @@
 
 
 ### 💻 Live
-Check the deployed version [Here]](https://walle1602.github.io/Portfolio/)
+Check the deployed version [[Here](https://walle1602.github.io/Portfolio/)]
 
 ### ⚒️ Tech Stack
 - HTML
